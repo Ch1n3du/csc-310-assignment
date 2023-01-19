@@ -1,5 +1,5 @@
 const addMember = person => {
-    let { image_src, name, matric_no, age, ...rest } = person;
+    let { image_src, name, matric_no, program, ...rest } = person;
 
     let person_div = document.createElement("div");
     person_div.classList.add("profile-card");
@@ -23,10 +23,10 @@ const addMember = person => {
     name_div.classList.add("matric-no");
     blurb.appendChild(matric_no_div);
 
-    let age_div = document.createElement("div");
-    age_div.innerText = "Age: " + age;
-    age_div.classList.add("person-age");
-    blurb.appendChild(age_div);
+    let program_div = document.createElement("div");
+    program_div.innerText = program;
+    program_div.classList.add("person-program");
+    blurb.appendChild(program_div);
 
     person_div.appendChild(blurb);
 
@@ -39,43 +39,43 @@ const MEMBERS = [
         image_src: "assets/Daniel_pfp.jpg",
         name: "Daniel Chinedu Onyesoh",
         matric_no: "20CG028130",
-        age: "18",
+        program: "Computer Science",
     },
     {
         image_src: "",
         name: "Enyi-Abonta Bliss",
         matric_no: "20CG028079",
-        age: "18",
+        program: "Computer Science",
     },
     {
         image_src: "",
         name: "Oludele Joyce",
         matric_no: "20CG028123",
-        age: "18",
+        program: "Computer Science",
     },
     {
         image_src: "",
         name: "Adegbite Oluwasayemidero",
         matric_no: "20CG028032",
-        age: "18",
+        program: "Computer Science",
     },
     {
         image_src: "",
         name: "Daudu John",
         matric_no: "20CG028063",
-        age: "18",
+        program: "Computer Science",
     },
     {
         image_src: "",
         name: "Soji-Odus Korede",
         matric_no: "20CH028189",
-        age: "18",
+        program: "MIS",
     },
     {
         image_src: "",
         name: "Ebunlomo Daniel",
         matric_no: "20CH028162",
-        age: "18",
+        program: "MIS",
     },
 ]
 
