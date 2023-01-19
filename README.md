@@ -1,9 +1,12 @@
 # CSC 310 Practical Assignment (Group 16)
 
+[![Home Page](./assets/home_page.png)](https://ch1n3du.github.io/csc-310-assignment/)
+
 We were assigned to build a HTML, CSS and Vanilla JS site that has:
 
 - The biodata of the group members
 - Has a calculator able to handle basic arithmetic.
+[![Calculator](./assets/calculator.png)](https://ch1n3du.github.io/calc/calc.html)
 - Have a form that reflects the content of the biodata presented.
 
 ## Group Members
