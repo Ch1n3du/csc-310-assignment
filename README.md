@@ -5,7 +5,7 @@
 We were assigned to build a HTML, CSS and Vanilla JS site that has:
 
 - The biodata of the group members
-- Has a calculator able to handle basic arithmetic.
+- Has a calculator that can handle basic arithmetic.
 [![Calculator](./assets/calculator.png)](https://ch1n3du.github.io/calc/calc.html)
 - Have a form that reflects the content of the biodata presented.
 
