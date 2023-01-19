@@ -98,6 +98,13 @@ keys.addEventListener('click', e => {
         previous_key_type = KeyTypes.Calculate;
         break;
 
+      case KeyTypes.Decimal:
+        if (!decimal_clicked) {
+          display.textContent += ".";
+          decimal_clicked = true
+        }
+        break
+
       // If the action type is none it's a number
       default:
         if (
