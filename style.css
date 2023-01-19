@@ -1,0 +1,112 @@
+:root {
+    --black: rgb(31, 30, 30);
+    --grey: rgb(38, 43, 43);
+    --green: rgb(53, 197, 125);
+    --border-radius: 0.4rem;
+    font-family: 'Inter', sans-serif;
+    /* font-family: "URW Bookman"; */
+    color: white;
+    background-color: var(--black);
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    /* color: rgb(175, 175, 175); */
+    color: var(--green);
+}
+
+.underline {
+    border-bottom: 2.5px solid var(--green);
+}
+
+.people-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-around;
+
+    /* margin: 1rem; */
+    margin: 1rem;
+    width: 15rem;
+    height: 14rem;
+    border-radius: var(--border-radius);
+
+    padding: 5px;
+    text-align: center;
+
+
+    /* background-color: rgb(2, 17, 17); */
+    background-color: rgb(38, 43, 43);
+}
+
+.profile-pic {
+    border: 0.2em solid var(--green);
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+}
+
+.blurb {
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.person-name {
+    margin-bottom: 0.3rem;
+}
+
+label,
+button {
+    font-size: 200;
+}
+
+input {
+    border-radius: 0.2rem;
+    border: none;
+}
+
+form {
+    background-color: var(--grey);
+
+    height: 18rem;
+    width: 16rem;
+    margin: 1rem;
+    padding-left: 3.5rem;
+    border-radius: var(--border-radius);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+form>button :hover {
+    opacity: 0.5;
+}
+
+form>button {
+    background-color: black;
+    color: white;
+
+    border-radius: 0.2em;
+    border: none;
+    height: 2rem;
+    width: 11rem;
+}
