@@ -4,6 +4,7 @@ Build a website using just HTML, CSS, and JavaScript. Open a GitHub account and 
 site via GitHub.
 
 The site should contain:
+
 - The biodata of the group members
 - Be able to handle basic arithmetic.
 - Have a form that reflects the content of the biodata presented.
